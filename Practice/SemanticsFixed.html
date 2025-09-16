@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GreatMag - Issue 12</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GreatMag Issue 12 - featuring Impermanence and interviews.">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script src="/scripts/ads.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>GreatMag – Issue 12</h1>
+    <div id="logo">GreatMag</div>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/issues">Issues</a></li>
+        <li><a href="/subscribe">Subscribe</a></li>
+      </ul>
+    </nav>
+    <form action="/search" method="get">
+      <label for="search">Search:</label>
+      <input id="search" name="q" placeholder="Search">
+    </form>
+  </header>
+
+  <main id="page">
+    <nav class="toc" aria-label="Table of contents">
+      <h2>Issue 12 contents</h2>
+      <ul>
+        <li><a href="#">Feature: Impermanence</a></li>
+        <li><a href="#">Interview: Jane Doe</a></li>
+      </ul>
+    </nav>
+
+    <article class="main-article">
+      <header>
+        <h2>Impermanence</h2>
+      </header>
+      <section class="body">
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+      </section>
+      <footer>
+        <address class="author">
+          <img src="/images/jane.jpg" alt="Portrait of Jane Doe">
+          <p>By Jane Doe</p>
+        </address>
+      </footer>
+    </article>
+
+    <aside class="related">
+      <h2>Related</h2>
+      <ul>
+        <li><a href="/more">Read More</a></li>
+      </ul>
+    </aside>
+
+    <section id="comments" aria-live="polite">
+      <h2>Comments</h2>
+      <!-- comments loaded by JS -->
+    </section>
+  </main>
+
+  <aside id="ads" aria-label="Sponsored content">
+    <!-- third-party ad iframes -->
+  </aside>
+
+  <div id="toast" aria-live="polite">Saved</div>
+</body>
+</html>
